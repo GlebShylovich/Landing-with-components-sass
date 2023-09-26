@@ -1,15 +1,7 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html,
@@ -61,4 +53,61 @@ body {
 .header__item--active {
   color: #F78434;
   font-weight: 700;
+}
+
+.page__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.promo {
+  width: 100%;
+  position: relative;
+}
+
+.promo img {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+}
+
+.promo__container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.promo__title {
+  color: #323232;
+  font-family: Poppins;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 79px;
+  /* 146.296% */
+  letter-spacing: 0.8px;
+  margin-bottom: 25px;
+  text-align: left;
+  width: 60%;
+}
+
+.promo__subtitle {
+  color: #323232;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  /* 168.75% */
+  letter-spacing: 1.15px;
+  width: 43%;
+  text-align: left;
+}
+
+.promo__action {
+  width: 460px;
+  border-radius: 29px;
+  background: #FFF;
+  box-shadow: 0px 17px 42px 0px rgba(0, 0, 0, 0.12);
 }
