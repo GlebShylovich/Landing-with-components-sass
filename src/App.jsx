@@ -47,6 +47,26 @@ export default function App() {
                 <div className="features__btn">Learn more</div>
               </div>
             </div>
+            <div className="video">
+              <div className="video__text-box">
+                <h1 className="video__title">Start using our product</h1>
+                <p className="video__subtitle">Quid ex eo ortum, tam inportuno tamque crudeli; sin, ut aliquid ex</p>
+                <div className="video__buttons">
+                  <div className="video__contact-btn">Contact Us</div>
+                  <div className="video__video-btn"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="12" viewBox="0 0 11 12" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.2111 5.10557C10.9482 5.4741 10.9482 6.5259 10.2111 6.89443L1.44721 11.2764C0.782312 11.6088 0 11.1253 0 10.382V1.61803C0 0.874652 0.782312 0.391156 1.44721 0.723607L10.2111 5.10557Z" fill="#F78434" />
+                  </svg>
+
+                    <p>Watch now</p>
+                  </div>
+                </div>
+              </div>
+              <div className="video__rectangle"></div>
+              <img className="video__table" src="./img/Dashboard (on my profile soon).png" alt="" />
+              <img className='video__oval' src="./img/Oval.png" alt="" />
+              <img className='video__circle' src="./img/Oval (1).png" alt="" />
+              <img className='video__fill' src="./img/Fill 1.png" alt="" />
+            </div>
           </div>
           <div className="features__image-box">
             <img src="./img/Your images here (1).png" alt="" />
