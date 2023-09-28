@@ -67,11 +67,24 @@ export default function App() {
               <img className='video__circle' src="./img/Oval (1).png" alt="" />
               <img className='video__fill' src="./img/Fill 1.png" alt="" />
             </div>
+            <div className="exp">
+              <div className="exp__text-box">
+                <h1 className="exp__title">Get experience from the expert</h1>
+                <p className="exp__subtitle">
+                  Quid ex eo ortum, tam inportuno tamque crudeli; sin, ut aliquid ex
+                </p>
+                <div className="exp__btn">Contact Us</div>
+              </div>
+              <img src="./img/Your image here (1).png" alt="" />
+            </div>
           </div>
           <div className="features__image-box">
             <img src="./img/Your images here (1).png" alt="" />
             <img src="./img/Your images here.png" alt="" />
           </div>
+          <div className="page__rectangle"></div>
+          <img src="./img/Mask (2).png" alt="" className="page__mask" />
+          <img className='page__oval' src="./img/Oval (2).png" alt="" />
         </main>
       </div>
     </div>
