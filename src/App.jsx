@@ -86,6 +86,39 @@ export default function App() {
           <img src="./img/Mask (2).png" alt="" className="page__mask" />
           <img className='page__oval' src="./img/Oval (2).png" alt="" />
         </main>
+        <footer className="footer">
+          <div className="footer__container">
+            <div className="footer__info">
+              <img src="./img/Your logo.png" alt="" className="footer__logo" />
+              <p className="footer__subtitle">Quae fuerit causa, nollem me ab illo inventore veritatis et.</p>
+              <div className="footer__socials">
+                <img src="./img/Social media.png" alt="" />
+              </div>
+            </div>
+            <div className="footer__nav">
+              <div className="footer__nav-column">
+                <div className="footer__title">Privacy</div>
+                <div className="footer__nav-item">Si sine causa</div>
+                <div className="footer__nav-item">Quae fuerit causa</div>
+                <div className="footer__nav-item">Certe, inquam</div>
+                <div className="footer__nav-item">Torquatos nostros? </div>
+              </div>
+              <div className="footer__nav-column">
+                <div className="footer__title">Legal</div>
+                <div className="footer__nav-item">Ut placet, inquam </div>
+                <div className="footer__nav-item">Certe, inquam</div>
+                <div className="footer__nav-item">Et quidem rerum</div>
+                <div className="footer__nav-item">At vero eos et</div>
+              </div>
+              <div className="footer__nav-column">
+                <div className="footer__title">Contact</div>
+                <div className="footer__nav-item">Primum igitur</div>
+                <div className="footer__nav-item">Certe, inquam</div>
+                <div className="footer__nav-item">Quae fuerit causa</div>
+              </div>
+            </div>
+          </div>
+        </footer>
       </div>
     </div>
   );
