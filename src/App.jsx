@@ -479,7 +479,7 @@ export default function App() {
                     fill="#58BEBF"
                   />
                 </svg>
-                <div className="blog__card blog__card--active">
+                <div className="blog__card">
                   <img
                     src="./img/blog1.png"
                     alt=""
@@ -491,7 +491,7 @@ export default function App() {
                       motus et."
                     </p>
                     <p className="blog__card-autor">Arend Pellewever</p>
-                    <p className="blog__card-city blog__card-city--avtive">
+                    <p className="blog__card-city">
                       Baltimore
                     </p>
                   </div>
@@ -525,6 +525,21 @@ export default function App() {
                     <p className="blog__card-autor">Leo Knight</p>
                     <p className="blog__card-city">Cleveland</p>
                   </div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="50"
+                    height="50"
+                    viewBox="0 0 50 50"
+                    fill="none"
+                  >
+                    <circle cx="25" cy="25" r="25" fill="white" />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M33.2111 24.6056C33.9482 24.9741 33.9482 26.0259 33.2111 26.3944L21.4472 32.2764C20.7823 32.6088 20 32.1253 20 31.382V19.618C20 18.8747 20.7823 18.3912 21.4472 18.7236L33.2111 24.6056Z"
+                      fill="#F78434"
+                    />
+                  </svg>
                 </div>
                 <div className="blog__card">
                   <img
@@ -540,6 +555,21 @@ export default function App() {
                     <p className="blog__card-autor">Lisanne Viscaal</p>
                     <p className="blog__card-city">Lyon</p>
                   </div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="50"
+                    height="50"
+                    viewBox="0 0 50 50"
+                    fill="none"
+                  >
+                    <circle cx="25" cy="25" r="25" fill="white" />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M33.2111 24.6056C33.9482 24.9741 33.9482 26.0259 33.2111 26.3944L21.4472 32.2764C20.7823 32.6088 20 32.1253 20 31.382V19.618C20 18.8747 20.7823 18.3912 21.4472 18.7236L33.2111 24.6056Z"
+                      fill="#F78434"
+                    />
+                  </svg>
                 </div>
               </div>
             </div>
@@ -586,7 +616,11 @@ export default function App() {
               <p className="footer__subtitle">
                 Quae fuerit causa, nollem me ab illo inventore veritatis et.
               </p>
-                <img className="footer__socials" src="./img/Social media.png"  alt="" />
+              <img
+                className="footer__socials"
+                src="./img/Social media.png"
+                alt=""
+              />
             </div>
             <div className="footer__nav">
               <div className="footer__nav-column">
