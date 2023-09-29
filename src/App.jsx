@@ -453,16 +453,107 @@ export default function App() {
                 </div>
               </div>
             </div>
+            <div className="blog">
+              <div className="blog__text-box">
+                <h1 className="blog__title">
+                  Thanks for your nice words to us
+                </h1>
+                <p className="blog__subtitle">
+                  Si sine causa, nollem me tamen laudandis maioribus meis
+                  corrupisti nec voluptas
+                </p>
+              </div>
+              <div className="blog__blocks">
+                <svg
+                  className="blog__svg"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="80"
+                  height="80"
+                  viewBox="0 0 80 80"
+                  fill="none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M40 40L39.97 0C18.0382 0.0162937 0 18.0679 0 40C0 61.9434 18.0566 80 40 80C61.9434 80 80 61.9434 80 40H40Z"
+                    fill="#58BEBF"
+                  />
+                </svg>
+                <div className="blog__card blog__card--active">
+                  <img
+                    src="./img/blog1.png"
+                    alt=""
+                    className="blog__card-image"
+                  />
+                  <div className="blog__card-text-box">
+                    <p className="blog__card-quote">
+                      "Omne animal, simul atque integre iudicante itaque earum
+                      motus et."
+                    </p>
+                    <p className="blog__card-autor">Arend Pellewever</p>
+                    <p className="blog__card-city blog__card-city--avtive">
+                      Baltimore
+                    </p>
+                  </div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="50"
+                    height="50"
+                    viewBox="0 0 50 50"
+                    fill="none"
+                  >
+                    <circle cx="25" cy="25" r="25" fill="white" />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M33.2111 24.6056C33.9482 24.9741 33.9482 26.0259 33.2111 26.3944L21.4472 32.2764C20.7823 32.6088 20 32.1253 20 31.382V19.618C20 18.8747 20.7823 18.3912 21.4472 18.7236L33.2111 24.6056Z"
+                      fill="#F78434"
+                    />
+                  </svg>
+                </div>
+                <div className="blog__card">
+                  <img
+                    src="./img/blog2.png"
+                    alt=""
+                    className="blog__card-image"
+                  />
+                  <div className="blog__card-text-box">
+                    <p className="blog__card-quote">
+                      "In quo quaerimus, non emolumento aliquo, sed quia
+                      voluptas sit."
+                    </p>
+                    <p className="blog__card-autor">Leo Knight</p>
+                    <p className="blog__card-city">Cleveland</p>
+                  </div>
+                </div>
+                <div className="blog__card">
+                  <img
+                    src="./img/blog3.png"
+                    alt=""
+                    className="blog__card-image"
+                  />
+                  <div className="blog__card-text-box">
+                    <p className="blog__card-quote">
+                      "Filium morte multavit si sine causa? Quae fuerit causa,
+                      nollem."
+                    </p>
+                    <p className="blog__card-autor">Lisanne Viscaal</p>
+                    <p className="blog__card-city">Lyon</p>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="exp">
               <div className="exp__text-box">
                 <h1 className="exp__title">Get experience from the expert</h1>
                 <p className="exp__subtitle">
                   Quid ex eo ortum, tam inportuno tamque crudeli; sin, ut
-                  aliquid ex
+                  aliquid ex.
                 </p>
                 <div className="exp__btn">Contact Us</div>
               </div>
-              <img src="./img/Your image here (1).png" alt="" />
+              <img className="exp__woman" src="./img/woman.png" alt="" />
+              <img className="exp__oval" src="./img/exp-oval.png" alt="" />
             </div>
           </div>
           <div className="features__image-box">
@@ -470,19 +561,32 @@ export default function App() {
             <img src="./img/Your images here.png" alt="" />
           </div>
           <div className="page__rectangle"></div>
-          <img src="./img/Mask (2).png" alt="" className="page__mask" />
-          <img className="page__oval" src="./img/Oval (2).png" alt="" />
+          <img src="./img/exp-rectangle.png" alt="" className="page__mask" />
         </main>
         <footer className="footer">
           <div className="footer__container">
             <div className="footer__info">
-              <img src="./img/Your logo.png" alt="" className="footer__logo" />
+              <div className="footer__logo">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="30"
+                  viewBox="0 0 26 30"
+                  fill="none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M15 15.0001L25.5987 4.38552C19.7788 -1.42572 10.209 -1.42216 4.3934 4.39347C-1.42523 10.2121 -1.42523 19.788 4.3934 25.6067C10.212 31.4253 19.788 31.4253 25.6066 25.6067L15 15.0001Z"
+                    fill="#58BEBF"
+                  />
+                </svg>
+                <p>CutSpace</p>
+              </div>
               <p className="footer__subtitle">
                 Quae fuerit causa, nollem me ab illo inventore veritatis et.
               </p>
-              <div className="footer__socials">
-                <img src="./img/Social media.png" alt="" />
-              </div>
+                <img className="footer__socials" src="./img/Social media.png"  alt="" />
             </div>
             <div className="footer__nav">
               <div className="footer__nav-column">

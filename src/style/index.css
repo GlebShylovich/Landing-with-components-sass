@@ -40,11 +40,6 @@ body {
   column-gap: 15px;
 }
 
-.header__logo img {
-  width: 30px;
-  height: 30px;
-}
-
 .header__logo p {
   color: #323232;
   font-family: Poppins;
@@ -502,6 +497,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  column-gap: 40px;
 }
 
 .achievements__item {
@@ -531,6 +527,122 @@ body {
   letter-spacing: 1.15px;
 }
 
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px 0;
+}
+
+.blog__text-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blog__title {
+  flex-basis: 41%;
+  color: #323232;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 147.619%;
+  letter-spacing: 0.8px;
+  text-align: left;
+}
+
+.blog__subtitle {
+  flex-basis: 36%;
+  color: #606060;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 168.75%;
+  letter-spacing: 1.15px;
+  text-align: left;
+}
+
+.blog__blocks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+  position: relative;
+}
+
+.blog__svg {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  z-index: 1;
+}
+
+.blog__card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  flex-basis: 32%;
+  position: relative;
+}
+
+.blog__card svg {
+  position: absolute;
+  top: 134px;
+  right: 20px;
+  z-index: 1;
+}
+
+.blog__card--active {
+  box-shadow: 0px 10px 52px 0px rgba(0, 0, 0, 0.08);
+}
+
+.blog__card-image {
+  display: block;
+  width: 100%;
+}
+
+.blog__card-text-box {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  padding: 29px 31px;
+}
+
+.blog__card-quote {
+  color: #323232;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 168.75%;
+  letter-spacing: 1.15px;
+  text-align: left;
+  margin-bottom: 23px;
+}
+
+.blog__card-autor {
+  color: #323232;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+}
+
+.blog__card-city {
+  color: #58bebf;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 168.75%;
+  letter-spacing: 1.15px;
+}
+
+.blog__card-city--avtive {
+  color: #f78434;
+}
+
 .page__rectangle {
   background: #f5f6fa;
   height: 704px;
@@ -542,34 +654,52 @@ body {
 
 .exp {
   position: relative;
-  height: 550px;
+  height: 492px;
   z-index: 3;
   display: flex;
   flex-direction: column;
   align-items: start;
-  justify-content: end;
+  margin-top: 40px;
+}
+
+.exp__text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 156px 0 55px 0;
+  width: 33%;
+}
+
+.exp__woman{
+  position: absolute;
+  bottom: 0;
+  right: 80px;
+  z-index: 2;
+}
+
+.exp__oval{
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  right: -107px;
 }
 
 .exp__title {
   color: #fff;
-  font-family: Poppins;
   font-size: 42px;
   font-style: normal;
   font-weight: 700;
-  line-height: 62px;
-  /* 147.619% */
+  line-height: 147.619%;
   letter-spacing: 0.8px;
   text-align: left;
 }
 
 .exp__subtitle {
   color: #fff;
-  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 27px;
-  /* 168.75% */
+  line-height: 168.75%;
   letter-spacing: 1.15px;
   margin: 15px 0;
   text-align: left;
@@ -578,7 +708,9 @@ body {
 .exp__btn {
   margin-top: 15px;
   color: #323232;
-  font-family: Poppins;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -587,7 +719,6 @@ body {
   background: #fff;
   border: none;
   padding: 18px 40px;
-  border: none;
 }
 
 .page__mask {
@@ -595,31 +726,11 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  max-height: 492px;
-}
-
-.page__oval {
-  position: absolute;
-  bottom: 0;
-  right: 78px;
-}
-
-.exp img {
-  position: absolute;
-  bottom: 0;
-  left: 533px;
-}
-
-.exp__text-box {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  padding: 0 0 55px 0;
-  width: 33%;
+  height: 492px;
 }
 
 .footer {
-  padding: 86px 0;
+  padding: 85px 0;
 }
 
 .footer__container {
@@ -636,20 +747,35 @@ body {
 }
 
 .footer__logo {
-  width: 56%;
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.footer__logo p {
+  color: #323232;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .footer__subtitle {
   margin: 15px 0 40px 0;
   color: #323232;
-  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 27px;
-  /* 168.75% */
+  line-height: 168.75%;
   letter-spacing: 1.15px;
   text-align: left;
+}
+
+.footer__socials{
+  display: block;
+  width: 184px;
+  height: 20px;
 }
 
 .footer__nav {
