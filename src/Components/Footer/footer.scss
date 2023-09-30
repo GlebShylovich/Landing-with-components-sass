@@ -1,3 +1,4 @@
+@import "../../style/vars.scss";
 .footer {
   padding: 85px 0;
   .footer__container {
@@ -15,19 +16,19 @@
         column-gap: 15px;
         cursor: pointer;
         & p {
-          color: #323232;
+          color: $dark-color;
           font-size: 24px;
           font-style: normal;
-          font-weight: 700;
+          font-weight: $fw-bold;
           line-height: normal;
         }
       }
       .footer__subtitle {
         margin: 15px 0 40px 0;
-        color: #323232;
-        font-size: 16px;
+        color: $dark-color;
+        font-size: $fz-subtitle;
         font-style: normal;
-        font-weight: 400;
+        font-weight: $fw-normal;
         line-height: 168.75%;
         letter-spacing: 1.15px;
         text-align: left;
@@ -48,23 +49,23 @@
         align-items: start;
         row-gap: 12px;
         .footer__title {
-          color: #323232;
+          color: $dark-color;
           font-size: 21px;
           font-style: normal;
-          font-weight: 700;
+          font-weight: $fw-bold;
           line-height: normal;
           letter-spacing: 0.5px;
         }
         .footer__nav-item {
           cursor: pointer;
-          color: #323232;
+          color: $dark-color;
           font-size: 14px;
           font-style: normal;
-          font-weight: 400;
+          font-weight: $fw-normal;
           line-height: 192.857%;
           letter-spacing: 0.5px;
           &:hover {
-            border-bottom: 2px solid #323232;
+            border-bottom: 2px solid $dark-color;
           }
         }
       }

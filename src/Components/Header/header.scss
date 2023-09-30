@@ -1,3 +1,4 @@
+@import "../../style/vars.scss";
 .header {
   width: 100%;
   padding: 40px 0;
@@ -11,10 +12,10 @@
       column-gap: 15px;
       cursor: pointer;
       & p {
-        color: #323232;
+        color: $dark-color;
         font-size: 24px;
         font-style: normal;
-        font-weight: 700;
+        font-weight: $fw-bold;
         line-height: normal;
       }
     }
@@ -25,21 +26,21 @@
       column-gap: 42px;
       .header__item {
         cursor: pointer;
-        color: #323232;
+        color: $dark-color;
         text-align: center;
-        font-size: 16px;
+        font-size: $fz-subtitle;
         font-style: normal;
-        font-weight: 400;
+        font-weight: $fw-normal;
         line-height: normal;
         transition: 0.3s ease-in-out;
         &:hover {
-          color: #f78434;
-          font-weight: 700;
+          color: $orange-color;
+          font-weight: $fw-bold;
         }
       }
       .header__item--active {
-        color: #f78434;
-        font-weight: 700;
+        color: $orange-color;
+        font-weight: $fw-bold;
       }
     }
   }

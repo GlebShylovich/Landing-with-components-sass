@@ -1,3 +1,4 @@
+@import "../../style/vars.scss";
 .page {
   position: relative;
   z-index: 1;
@@ -45,10 +46,10 @@
         display: flex;
         flex-direction: column;
         .promo__title {
-          color: #323232;
+          color: $dark-color;
           font-size: 54px;
           font-style: normal;
-          font-weight: 700;
+          font-weight: $fw-bold;
           line-height: 146.296%;
           letter-spacing: 0.8px;
           margin-bottom: 25px;
@@ -57,10 +58,10 @@
         }
 
         .promo__subtitle {
-          color: #323232;
-          font-size: 16px;
+          color: $dark-color;
+          font-size: $fz-subtitle;
           font-style: normal;
-          font-weight: 400;
+          font-weight: $fw-normal;
           line-height: 168.75%;
           letter-spacing: 1.15px;
           width: 43%;
@@ -88,16 +89,16 @@
             border: none;
             outline: none;
             color: #bbb;
-            font-size: 16px;
+            font-size: $fz-subtitle;
             font-style: normal;
-            font-weight: 400;
+            font-weight: $fw-normal;
             line-height: normal;
             transition: 0.3s ease-in-out;
             &::placeholder {
               color: #bbb;
-              font-size: 16px;
+              font-size: $fz-subtitle;
               font-style: normal;
-              font-weight: 400;
+              font-weight: $fw-normal;
               line-height: normal;
             }
           }
@@ -106,20 +107,20 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background: #f78434;
+            background: $orange-color;
             border: none;
-            color: #fff;
-            font-size: 16px;
+            color: $white-color;
+            font-size: $fz-subtitle;
             font-style: normal;
-            font-weight: 700;
+            font-weight: $fw-bold;
             line-height: normal;
             padding: 18px 0;
             flex-basis: 34%;
             transition: 0.3s ease-in-out;
             cursor: pointer;
             &:hover {
-              color: #f78434;
-              background: #fff;
+              color: $orange-color;
+              background: $white-color;
             }
           }
         }
@@ -144,20 +145,20 @@
         flex-direction: column;
         flex-basis: 34%;
         .features__title {
-          color: #323232;
-          font-size: 42px;
+          color: $dark-color;
+          font-size: $fz-title;
           font-style: normal;
-          font-weight: 700;
+          font-weight: $fw-bold;
           line-height: 147.619%;
           letter-spacing: 0.8px;
           text-align: left;
         }
 
         .features__subtitle {
-          color: #323232;
-          font-size: 16px;
+          color: $dark-color;
+          font-size: $fz-subtitle;
           font-style: normal;
-          font-weight: 400;
+          font-weight: $fw-normal;
           line-height: 168.75%;
           letter-spacing: 1.15px;
           margin-top: 20px;
@@ -172,18 +173,18 @@
           align-items: center;
           justify-content: center;
           border-radius: 29px;
-          background: #f78434;
-          color: #fff;
+          background: $orange-color;
+          color: $white-color;
           border: none;
-          font-size: 16px;
+          font-size: $fz-subtitle;
           font-style: normal;
-          font-weight: 700;
+          font-weight: $fw-bold;
           line-height: normal;
           margin-top: 40px;
           transition: 0.3s ease-in-out;
           &:hover {
-            color: #f78434;
-            background: #fff;
+            color: $orange-color;
+            background: $white-color;
           }
         }
       }
@@ -206,7 +207,7 @@
         bottom: 0;
         left: 0;
         border-radius: 0 21.6px 0 20px;
-        background: #fff;
+        background: $white-color;
         box-shadow: 4px 20px 42px -2px rgba(0, 0, 0, 0.12);
       }
 
@@ -242,20 +243,20 @@
         flex-basis: 50%;
         padding: 0 95px;
         .video__title {
-          color: #fff;
-          font-size: 42px;
+          color: $white-color;
+          font-size: $fz-title;
           font-style: normal;
-          font-weight: 700;
+          font-weight: $fw-bold;
           line-height: 147.619%;
           letter-spacing: 0.8px;
           text-align: left;
         }
 
         .video__subtitle {
-          color: #fff;
-          font-size: 16px;
+          color: $white-color;
+          font-size: $fz-subtitle;
           font-style: normal;
-          font-weight: 400;
+          font-weight: $fw-normal;
           line-height: 168.75%;
           letter-spacing: 1.15px;
           text-align: left;
@@ -273,19 +274,19 @@
             justify-content: center;
             align-items: center;
             border-radius: 29px;
-            background: #f78434;
+            background: $orange-color;
             border: none;
-            color: #fff;
-            font-size: 16px;
+            color: $white-color;
+            font-size: $fz-subtitle;
             font-style: normal;
-            font-weight: 700;
+            font-weight: $fw-bold;
             line-height: normal;
             flex-basis: 47%;
             padding: 18px 0;
             transition: 0.3s ease-in-out;
             &:hover {
-              color: #f78434;
-              background: #fff;
+              color: $orange-color;
+              background: $white-color;
             }
           }
 
@@ -294,11 +295,11 @@
             border-radius: 29px;
             height: 60px;
             border: none;
-            background: #fff;
-            color: #323232;
-            font-size: 16px;
+            background: $white-color;
+            color: $dark-color;
+            font-size: $fz-subtitle;
             font-style: normal;
-            font-weight: 700;
+            font-weight: $fw-bold;
             line-height: normal;
             flex-basis: 47%;
             padding: 18px 0;
@@ -308,7 +309,7 @@
             align-items: center;
             transition: 0.3s ease-in-out;
             &:hover {
-              color: #f78434;
+              color: $orange-color;
             }
           }
         }
@@ -319,19 +320,19 @@
       flex-direction: column;
       align-items: center;
       .functions__title {
-        color: #323232;
-        font-size: 42px;
+        color: $dark-color;
+        font-size: $fz-title;
         font-style: normal;
-        font-weight: 700;
+        font-weight: $fw-bold;
         line-height: 147.619%;
         letter-spacing: 0.8px;
       }
 
       .functions__subtitle {
-        color: #323232;
-        font-size: 16px;
+        color: $dark-color;
+        font-size: $fz-subtitle;
         font-style: normal;
-        font-weight: 400;
+        font-weight: $fw-normal;
         line-height: 168.75%;
         letter-spacing: 1.15px;
         margin-top: 10px;
@@ -348,32 +349,32 @@
           flex-direction: column;
           align-items: center;
           border-radius: 10px;
-          background: #f78434;
+          background: $orange-color;
           box-shadow: 0px 40px 52px -22px rgba(0, 0, 0, 0.08);
           &:nth-child(2) {
             background: white;
           }
           .functions__item-title {
-            font-size: 42px;
+            font-size: $fz-title;
             font-style: normal;
-            font-weight: 700;
+            font-weight: $fw-bold;
             line-height: normal;
             letter-spacing: 0.8px;
           }
 
           .functions__item-title--buyer {
-            color: #fff;
+            color: $white-color;
           }
 
           .functions__item-title--seller {
-            color: #323232;
+            color: $dark-color;
           }
 
           .functions__item-subtitle {
             text-align: center;
-            font-size: 16px;
+            font-size: $fz-subtitle;
             font-style: normal;
-            font-weight: 400;
+            font-weight: $fw-normal;
             line-height: 168.75%;
             letter-spacing: 1.15px;
             margin-top: 1px;
@@ -381,11 +382,11 @@
           }
 
           .functions__item-subtitle--buyer {
-            color: #fff;
+            color: $white-color;
           }
 
           .functions__item-subtitle--seller {
-            color: #323232;
+            color: $dark-color;
           }
 
           .functions__item-btn {
@@ -393,9 +394,9 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 16px;
+            font-size: $fz-subtitle;
             font-style: normal;
-            font-weight: 700;
+            font-weight: $fw-bold;
             line-height: normal;
             padding: 18px 0;
             width: 38%;
@@ -405,23 +406,23 @@
           }
 
           .functions__item-btn--buyer {
-            color: #f78434;
-            background: #fff;
+            color: $orange-color;
+            background: $white-color;
           }
 
           .functions__item-btn--buyer:hover {
-            color: #fff;
-            background: #f78434;
+            color: $white-color;
+            background: $orange-color;
           }
 
           .functions__item-btn--seller {
-            color: #f78434;
-            background: #fff;
+            color: $orange-color;
+            background: $white-color;
           }
 
           .functions__item-btn--seller:hover {
-            color: #fff;
-            background: #f78434;
+            color: $white-color;
+            background: $orange-color;
           }
         }
       }
@@ -432,11 +433,11 @@
       flex-direction: column;
       align-items: center;
       .achievements__title {
-        color: #323232;
+        color: $dark-color;
         text-align: center;
-        font-size: 42px;
+        font-size: $fz-title;
         font-style: normal;
-        font-weight: 700;
+        font-weight: $fw-bold;
         line-height: 147.619%;
         letter-spacing: 0.8px;
       }
@@ -452,22 +453,22 @@
           flex-direction: column;
           align-items: center;
           .achievements__item-title {
-            color: #323232;
+            color: $dark-color;
             text-align: center;
             font-size: 28px;
             font-style: normal;
-            font-weight: 700;
+            font-weight: $fw-bold;
             line-height: normal;
             letter-spacing: 0.5px;
             margin: 15px 0 2px 0;
           }
 
           .achievements__item-subtitle {
-            color: #323232;
+            color: $dark-color;
             text-align: center;
-            font-size: 16px;
+            font-size: $fz-subtitle;
             font-style: normal;
-            font-weight: 400;
+            font-weight: $fw-normal;
             line-height: 168.75%;
             letter-spacing: 1.15px;
           }
@@ -486,10 +487,10 @@
         justify-content: space-between;
         .blog__title {
           flex-basis: 41%;
-          color: #323232;
-          font-size: 42px;
+          color: $dark-color;
+          font-size: $fz-title;
           font-style: normal;
-          font-weight: 700;
+          font-weight: $fw-bold;
           line-height: 147.619%;
           letter-spacing: 0.8px;
           text-align: left;
@@ -498,9 +499,9 @@
         .blog__subtitle {
           flex-basis: 36%;
           color: #606060;
-          font-size: 16px;
+          font-size: $fz-subtitle;
           font-style: normal;
-          font-weight: 400;
+          font-weight: $fw-normal;
           line-height: 168.75%;
           letter-spacing: 1.15px;
           text-align: left;
@@ -539,7 +540,7 @@
           &:hover {
             box-shadow: 0px 10px 52px 0px rgba(0, 0, 0, 0.08);
             & .blog__card-city {
-              color: #f78434;
+              color: $orange-color;
             }
             & svg {
               display: block;
@@ -555,10 +556,10 @@
             flex-direction: column;
             padding: 29px 31px;
             .blog__card-quote {
-              color: #323232;
-              font-size: 16px;
+              color: $dark-color;
+              font-size: $fz-subtitle;
               font-style: normal;
-              font-weight: 400;
+              font-weight: $fw-normal;
               line-height: 168.75%;
               letter-spacing: 1.15px;
               text-align: left;
@@ -566,19 +567,19 @@
             }
 
             .blog__card-autor {
-              color: #323232;
+              color: $dark-color;
               font-size: 18px;
               font-style: normal;
-              font-weight: 700;
+              font-weight: $fw-bold;
               line-height: normal;
               letter-spacing: 0.6px;
             }
 
             .blog__card-city {
               color: #58bebf;
-              font-size: 16px;
+              font-size: $fz-subtitle;
               font-style: normal;
-              font-weight: 400;
+              font-weight: $fw-normal;
               line-height: 168.75%;
               letter-spacing: 1.15px;
               transition: 0.3s ease-in-out;
@@ -614,20 +615,20 @@
         padding: 156px 0 55px 0;
         width: 33%;
         .exp__title {
-          color: #fff;
-          font-size: 42px;
+          color: $white-color;
+          font-size: $fz-title;
           font-style: normal;
-          font-weight: 700;
+          font-weight: $fw-bold;
           line-height: 147.619%;
           letter-spacing: 0.8px;
           text-align: left;
         }
 
         .exp__subtitle {
-          color: #fff;
-          font-size: 16px;
+          color: $white-color;
+          font-size: $fz-subtitle;
           font-style: normal;
-          font-weight: 400;
+          font-weight: $fw-normal;
           line-height: 168.75%;
           letter-spacing: 1.15px;
           margin: 15px 0;
@@ -637,22 +638,22 @@
         .exp__btn {
           cursor: pointer;
           margin-top: 15px;
-          color: #323232;
+          color: $dark-color;
           display: flex;
           justify-content: center;
           align-items: center;
-          font-size: 16px;
+          font-size: $fz-subtitle;
           font-style: normal;
-          font-weight: 700;
+          font-weight: $fw-bold;
           line-height: normal;
           border-radius: 29px;
-          background: #fff;
+          background: $white-color;
           border: none;
           padding: 18px 40px;
           transition: 0.3s ease-in-out;
           &:hover {
             background: transparent;
-            color: #fff;
+            color: $white-color;
           }
         }
       }
