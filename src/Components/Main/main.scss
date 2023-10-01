@@ -137,7 +137,7 @@
     }
     .features {
       display: flex;
-      justify-content: end;
+      justify-content: flex-end;
       align-items: center;
       height: 550px;
       .features__text-box {
@@ -198,7 +198,7 @@
       height: 464px;
       display: flex;
       align-items: center;
-      justify-content: end;
+      justify-content: flex-end;
       .video__rectangle {
         position: absolute;
         width: 555px;
@@ -606,7 +606,7 @@
         position: absolute;
         bottom: 0;
         z-index: 1;
-        right: -107px;
+        right: -75px;
       }
       .exp__text-box {
         display: flex;
